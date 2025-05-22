@@ -1,5 +1,4 @@
 package model;
 
-public record ClimaB(double tempAvg, double humAvg, double windSpAvg, double visibilityAvg, double pressureAvg) {
-
+public record ClimaB(double temp, double humidity, double windSpeed, double visibility, double pressure) {
 }

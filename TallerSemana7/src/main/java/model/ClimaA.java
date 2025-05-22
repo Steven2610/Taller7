@@ -1,8 +1,6 @@
 package model;
 
+import java.time.OffsetDateTime;
 
-import java.util.Date;
-
-public record ClimaA(Date date, double temp, double humidity, double windSpeed, double visibility, double pressure) {
-
+public record ClimaA(OffsetDateTime date, double temp, double humidity, double windSpeed, double visibility, double pressure) {
 }
